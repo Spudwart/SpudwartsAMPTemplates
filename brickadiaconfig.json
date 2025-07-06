@@ -1,0 +1,28 @@
+[
+    {
+        "DisplayName": "Username",
+        "Category": "Launcher Authentication",
+        "Description": "Your Username login for Brickadia.com. REQUIRED for server to run.",
+        "Keywords": "user, name, username",
+        "FieldName": "user",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "user",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Password",
+        "Category": "Launcher Authentication",
+        "Description": "Password for your account from Brickadia.com. REQUIRED for server to run.",
+        "Keywords": "pass, word, password",
+        "FieldName": "password",
+        "InputType": "password",
+        "IsFlagArgument": false,
+        "ParamFieldName": "password",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "EnumValues": {}
+    }
+]
