@@ -1,6 +1,6 @@
 [
     {
-        "UpdateStageName": "SteamCMD Download",
+        "UpdateStageName": "Downloaded Server",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "3017590",
@@ -10,5 +10,4 @@
         "DeleteAfterExtract": true,
         "OneShot": false
     }
-
 ]
