@@ -4,7 +4,7 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "3017590",
-        "UpdateSourceArgs": "+login anonymous +app_update 2199420 validate +quit",
+        "UpdateSourceArgs": "2199420",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
