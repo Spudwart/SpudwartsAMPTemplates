@@ -4,10 +4,10 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "2199420",
-        "UpdateSourceArgs": "2199420",
+        "UpdateSourceArgs": "+login anonymous",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
-        "OneShot": true
+        "OneShot": false
     }
 ]
