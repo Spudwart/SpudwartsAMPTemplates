@@ -1,9 +1,10 @@
 {
-	"id": "22c9abc1-1bb0-4ef0-beac-fce4989f51aa",
-	"authors": ["Spudwart"],
-	"origin": "https://github.com/Spudwart/SpudwartsAMPTemplates.git",
-	"url": "https://github.com/Spudwart/SpudwartsAMPTemplates",
-	"imagefile": "",
-	"prefix": "",
-	"repotype": "AppTemplates"
+    "id": "60a1ebe9-eaf3-43ee-88d6-d89fa0354702",
+    "authors": [
+        "Spudwart"
+    ],
+    "origin": "https://github.com/Spudwart/SpudwartsAMPTemplates.git",
+    "url": "https://github.com/Spudwart/SpudwartsAMPTemplates",
+    "imagefile": "",
+    "prefix": ""
 }
