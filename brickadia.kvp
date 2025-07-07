@@ -15,7 +15,7 @@ App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.DisplayName=Brickadia
-App.CommandLineArgs= -user "{{user}}" -password "{{password}}"
+App.CommandLineArgs= -user="{{user}}" -password="{{password}}"
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=-{0}="{1}"
 App.CommandLineParameterDelimiter=
