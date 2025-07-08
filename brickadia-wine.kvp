@@ -15,7 +15,7 @@ App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.DisplayName=Brickadia (Wine)
-App.CommandLineArgs=Brickadia/Binaries/Win64/BrickadiaServer-Win64-Shipping.exe
+App.CommandLineArgs=Brickadia/Binaries/Win64/BrickadiaServer-Win64-Shipping.exe -user={{user}} -password={{password}}
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=-{0}={1}
 App.CommandLineParameterDelimiter= 
