@@ -12,16 +12,5 @@
         "UpdateSourceConditionValue": "",
         "DeleteAfterExtract": true,
         "OneShot": true
-    },
-    {
-        "UpdateStageName": "Proton Experimental",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "1493710",
-        "UpdateSourceArgs": "1493710",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
     }
 ]
