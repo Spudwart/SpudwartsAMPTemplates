@@ -1,10 +1,10 @@
 [
     {
         "UpdateStageName": "Downloaded Server",
-        "UpdateSourcePlatform": "All",
+        "UpdateSourcePlatform": "Windows",
         "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "2199420",
-        "UpdateSourceArgs": "3017590",
+        "UpdateSourceData": "3017590",
+        "UpdateSourceArgs": "2199420",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "UpdateSourceConditionSetting": "",
