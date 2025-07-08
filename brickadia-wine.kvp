@@ -17,8 +17,8 @@ App.HasWritableConsole=true
 App.DisplayName=Brickadia (Wine)
 App.CommandLineArgs= run "./Brickadia/Binaries/Win64/BrickadiaServer-Win64-Shipping.exe -user={{user}} -password={{password}}"
 App.WindowsCommandLineArgs=
-App.CommandLineParameterFormat=-{0}="{1}"
-App.CommandLineParameterDelimiter= 
+App.CommandLineParameterFormat=-{0}={1}
+App.CommandLineParameterDelimiter=
 App.RapidStartup=false
 App.ApplicationReadyMode=Immediate
 App.ExitMethod=String
@@ -41,8 +41,8 @@ App.RCONConnectRetrySeconds=15
 App.RCONHeartbeatCommand=ping
 App.RCONHeartbeatMinutes=0
 App.TelnetLoginFormat={0}
-App.SteamUpdateAnonymousLogin=True
-App.SteamForceLoginPrompt=False
+App.SteamUpdateAnonymousLogin=False
+App.SteamForceLoginPrompt=True
 App.SupportsUniversalSleep=False
 App.WakeupMode=Any
 App.TemplateMatchRegex={{(\$?[\w]+)}}
@@ -81,4 +81,4 @@ App.ExecutableLinux=1493710/proton
 App.LinuxCommandLineArgs=run "./Brickadia/Binaries/Win64/BrickadiaServer-Win64-Shipping.exe"
 App.Ports=@IncludeJson[brickadia-wineports.json]
 App.UpdateSources=@IncludeJson[brickadia-wineupdates.json]
-App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "SteamAppId": "2199420", "STEAM_COMPAT_DATA_PATH": "{{$FullRootDir}}1493710", "STEAM_COMPAT_CLIENT_INSTALL_PATH": "{{$FullRootDir}}1493710"}
+App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "SteamAppId": "3017590", "STEAM_COMPAT_DATA_PATH": "{{$FullRootDir}}1493710", "STEAM_COMPAT_CLIENT_INSTALL_PATH": "{{$FullRootDir}}1493710"}
