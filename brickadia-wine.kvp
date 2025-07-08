@@ -10,14 +10,14 @@ Meta.ContainerPolicy=Supported
 Meta.ContainerPolicyReason=
 Meta.Prerequsites=[]
 Meta.EndpointURIFormat=
-Meta.AppConfigId=9d8c4e2f-911f-422f-bfaf-d862da4e2080
+Meta.AppConfigId=e4214995-4650-40b1-bc3f-f29880a8bdac
 App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.DisplayName=Brickadia (Wine)
-App.CommandLineArgs=Brickadia/Binaries/Win64/BrickadiaServer-Win64-Shipping.exe -user={{user}} -password={{password}}
+App.CommandLineArgs= run "./Brickadia/Binaries/Win64/BrickadiaServer-Win64-Shipping.exe -user={{user}} -password={{password}}"
 App.WindowsCommandLineArgs=
-App.CommandLineParameterFormat=-{0}={1}
+App.CommandLineParameterFormat=-{0}="{1}"
 App.CommandLineParameterDelimiter= 
 App.RapidStartup=false
 App.ApplicationReadyMode=Immediate
@@ -41,8 +41,8 @@ App.RCONConnectRetrySeconds=15
 App.RCONHeartbeatCommand=ping
 App.RCONHeartbeatMinutes=0
 App.TelnetLoginFormat={0}
-App.SteamUpdateAnonymousLogin=False
-App.SteamForceLoginPrompt=True
+App.SteamUpdateAnonymousLogin=True
+App.SteamForceLoginPrompt=False
 App.SupportsUniversalSleep=False
 App.WakeupMode=Any
 App.TemplateMatchRegex={{(\$?[\w]+)}}
@@ -77,8 +77,8 @@ Meta.DisplayImageSource=steam:2199420
 App.BaseDirectory=./brickadia-wine/3017590/
 App.WorkingDir=3017590
 App.ExecutableWin=3017590\Brickadia\Binaries\Win64\BrickadiaServer-Win64-Shipping.exe
-App.ExecutableLinux=/usr/bin/wine
-App.LinuxCommandLineArgs=
+App.ExecutableLinux=1493710/proton
+App.LinuxCommandLineArgs=run "./Brickadia/Binaries/Win64/BrickadiaServer-Win64-Shipping.exe"
 App.Ports=@IncludeJson[brickadia-wineports.json]
 App.UpdateSources=@IncludeJson[brickadia-wineupdates.json]
-App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "SteamAppId": "3017590", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
+App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "SteamAppId": "2199420", "STEAM_COMPAT_DATA_PATH": "{{$FullRootDir}}1493710", "STEAM_COMPAT_CLIENT_INSTALL_PATH": "{{$FullRootDir}}1493710"}
