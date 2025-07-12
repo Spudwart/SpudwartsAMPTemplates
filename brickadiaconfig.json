@@ -20,7 +20,7 @@
       "DisplayName": "Server Name",
       "Category": "General",
       "Description": "The name of your Brickadia server.",
-      "FieldName": "Server__BP_ServerSettings_General_C.ServerName",
+      "FieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.ServerName",
       "InputType": "text",
       "DefaultValue": "My Brickadia Server"
     },
@@ -28,7 +28,7 @@
       "DisplayName": "Server Description",
       "Category": "General",
       "Description": "The name of your Brickadia server.",
-      "FieldName": "Server__BP_ServerSettings_General_C.ServerDescription",
+      "FieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.ServerDescription",
       "InputType": "text",
       "DefaultValue": "Your Description Here."
     },
@@ -36,7 +36,7 @@
       "DisplayName": "Server Password",
       "Category": "General",
       "Description": "The name of your Brickadia server.",
-      "FieldName": "Server__BP_ServerSettings_General_C.ServerPassword",
+      "FieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.ServerPassword",
       "InputType": "password",
       "DefaultValue": ""
     },
@@ -44,7 +44,7 @@
       "DisplayName": "Max Players",
       "Category": "General",
       "Description": "Maximum number of players.",
-      "FieldName": "Server__BP_ServerSettings_General_C.MaxPlayers",
+      "FieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.MaxPlayers",
       "InputType": "numeric",
       "DefaultValue": "30"
     },
@@ -52,7 +52,7 @@
       "DisplayName": "Publicly Listed",
       "Category": "General",
       "Description": "Whether the server appears in the public browser.",
-      "FieldName": "Server__BP_ServerSettings_General_C.bPubliclyListed",
+      "FieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.bPubliclyListed",
       "InputType": "boolean",
       "DefaultValue": "True"
     },
@@ -60,7 +60,7 @@
       "DisplayName": "Welcome Message",
       "Category": "General",
       "Description": "Message shown when players join.",
-      "FieldName": "Server__BP_ServerSettings_General_C.WelcomeMessage",
+      "FieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.WelcomeMessage",
       "InputType": "text",
       "DefaultValue": "<color=\\\"ffffff\\\"> Welcome to {2}, {1}!</>"
     },
@@ -68,7 +68,7 @@
       "DisplayName": "Self Damage",
       "Category": "General",
       "Description": "Allow players to hurt themselves.",
-      "FieldName": "Server__BP_ServerSettings_General_C.bGlobalRulesetSelfDamage",
+      "FieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.bGlobalRulesetSelfDamage",
       "InputType": "boolean",
       "DefaultValue": "True"
     },
@@ -76,7 +76,7 @@
       "DisplayName": "Physics Damage",
       "Category": "General",
       "Description": "Allow players to be hurt by physics objects.",
-      "FieldName": "Server__BP_ServerSettings_General_C.bGlobalRulesetPhysicsDamage",
+      "FieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.bGlobalRulesetPhysicsDamage",
       "InputType": "boolean",
       "DefaultValue": "False"
     },
@@ -84,7 +84,7 @@
       "DisplayName": "Camera Blocked Effects",
       "Category": "General",
       "Description": "Enable or disable effects usually blocked for the camera.",
-      "FieldName": "Server__BP_ServerSettings_General_C.bGlobalRulesetEnableCameraBlockedEffects",
+      "FieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.bGlobalRulesetEnableCameraBlockedEffects",
       "InputType": "boolean",
       "DefaultValue": "False"
     },
@@ -92,7 +92,7 @@
       "DisplayName": "Upload Timeout",
       "Category": "General",
       "Description": "Timeout for upload from the server.",
-      "FieldName": "Server__BP_ServerSettings_General_C.UploadTimeout",
+      "FieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.UploadTimeout",
       "InputType": "text",
       "Regex": "^[0-9]*\\.?[0-9]+$",
       "DefaultValue": "5.000000"
@@ -101,7 +101,7 @@
       "DisplayName": "Maximum Prefab Bricks",
       "Category": "General",
       "Description": "Maximum number of bricks a default player can place from a Prefab.",
-      "FieldName": "Server__BP_ServerSettings_General_C.MaxPrefabBricks",
+      "FieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.MaxPrefabBricks",
       "InputType": "numeric",
       "DefaultValue": "1000"
     },
@@ -109,7 +109,7 @@
       "DisplayName": "Maximum Prefab Components",
       "Category": "General",
       "Description": "Maximum number of Components a default player can place from a Prefab.",
-      "FieldName": "Server__BP_ServerSettings_General_C.MaxPrefabComponents",
+      "FieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.MaxPrefabComponents",
       "InputType": "numeric",
       "DefaultValue": "20"
     },
@@ -117,7 +117,7 @@
       "DisplayName": "Maximum Prefab Size",
       "Category": "General",
       "Description": "Maximum size of a prefab. FOLLOW (X=n, Y=n, Z=n) OR THIS WILL BREAK! Ex: (X=1000,Y=1000,Z=1000)",
-      "FieldName": "Server__BP_ServerSettings_General_C.MaxPrefabSize",
+      "FieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.MaxPrefabSize",
       "InputType": "text",
       "DefaultValue": "(X=1000,Y=1000,Z=1000)"
     },
@@ -125,7 +125,7 @@
       "DisplayName": "Maximum Physics Objects",
       "Category": "General",
       "Description": "Maximum number of physics objects a default player can place at once.",
-      "FieldName": "Server__BP_ServerSettings_General_C.MaxPhysicsObjects",
+      "FieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.MaxPhysicsObjects",
       "InputType": "numeric",
       "DefaultValue": "2000"
     },
@@ -133,7 +133,7 @@
       "DisplayName": "Maximum Placement Bricks",
       "Category": "General",
       "Description": "Maximum number of bricks a default player can place at once.",
-      "FieldName": "Server__BP_ServerSettings_General_C.MaxPlacementBricks",
+      "FieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.MaxPlacementBricks",
       "InputType": "numeric",
       "DefaultValue": "2000"
     },
@@ -141,7 +141,7 @@
       "DisplayName": "Maximum Placement Entities",
       "Category": "General",
       "Description": "Maximum number of entities a default player can place at once.",
-      "FieldName": "Server__BP_ServerSettings_General_C.MaxPlacementEntities",
+      "FieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.MaxPlacementEntities",
       "InputType": "numeric",
       "DefaultValue": "10"
     },
@@ -149,7 +149,7 @@
       "DisplayName": "Template Placement Timeout",
       "Category": "General",
       "Description": "Timeout for Template Placements.",
-      "FieldName": "Server__BP_ServerSettings_General_C.TemplatePlacementTimeout",
+      "FieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.TemplatePlacementTimeout",
       "InputType": "text",
       "Regex": "^[0-9]*\\.?[0-9]+$",
       "DefaultValue": "2.000000"
@@ -158,7 +158,7 @@
       "DisplayName": "Maximum Selection Box Size",
       "Category": "General",
       "Description": "Maximum size of a selection box. FOLLOW (X=n, Y=n, Z=n) OR THIS WILL BREAK! Ex: (X=1000,Y=1000,Z=1000)",
-      "FieldName": "Server__BP_ServerSettings_General_C.MaxSelectionBoxSize",
+      "FieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.MaxSelectionBoxSize",
       "InputType": "text",
       "DefaultValue": "(X=1000,Y=1000,Z=1000)"
     },
@@ -166,7 +166,7 @@
       "DisplayName": "Maximum Selected Bricks",
       "Category": "General",
       "Description": "Maximum number of Bricks a default player can selected at once.",
-      "FieldName": "Server__BP_ServerSettings_General_C.MaxSelectedBricks",
+      "FieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.MaxSelectedBricks",
       "InputType": "numeric",
       "DefaultValue": "1000"
     },
@@ -174,7 +174,7 @@
       "DisplayName": "Selection Timeout",
       "Category": "General",
       "Description": "Timeout for selections.",
-      "FieldName": "Server__BP_ServerSettings_General_C.SelectionTimeout",
+      "FieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.SelectionTimeout",
       "InputType": "text",
       "Regex": "^[0-9]*\\.?[0-9]+$",
       "DefaultValue": "2.000000"
@@ -183,7 +183,7 @@
       "DisplayName": "Automatic Save",
       "Category": "General",
       "Description": "Enable or Disable the automatic saving of the world for the server.",
-      "FieldName": "Server__BP_ServerSettingsAutoSave_C.bEnableAutoSave",
+      "FieldName": "Server__BP_ServerSettingsAutoSave_C BP_ServerSettingsAutoSave_C.bEnableAutoSave",
       "InputType": "boolean",
       "DefaultValue": "True"
     },
@@ -191,7 +191,7 @@
       "DisplayName": "Automatic Save Announcements",
       "Category": "General",
       "Description": "Announce in chat that the world for the server is being saved.",
-      "FieldName": "Server__BP_ServerSettingsAutoSave_C.bAnnounceAutoSave",
+      "FieldName": "Server__BP_ServerSettingsAutoSave_C BP_ServerSettingsAutoSave_C.bAnnounceAutoSave",
       "InputType": "boolean",
       "DefaultValue": "True"
     },
@@ -199,7 +199,7 @@
       "DisplayName": "Automatic Save Interval",
       "Category": "General",
       "Description": "How often the world is Automaticall Saved.",
-      "FieldName": "Server__BP_ServerSettingsAutoSave_C.AutoSaveInterval",
+      "FieldName": "Server__BP_ServerSettingsAutoSave_C BP_ServerSettingsAutoSave_C.AutoSaveInterval",
       "InputType": "text",
       "Regex": "^[0-9]*\\.?[0-9]+$",
       "DefaultValue": "300.000000"
@@ -208,7 +208,7 @@
       "DisplayName": "Include Screenshot in Save",
       "Category": "General",
       "Description": "Include a screenshot for the save.",
-      "FieldName": "Server__BP_ServerSettingsAutoSave_C.bIncludeScreenshot",
+      "FieldName": "Server__BP_ServerSettingsAutoSave_C BP_ServerSettingsAutoSave_C.bIncludeScreenshot",
       "InputType": "boolean",
       "DefaultValue": "True"
     }
