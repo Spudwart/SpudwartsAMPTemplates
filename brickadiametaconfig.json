@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "ConfigFile": "config/Saved/Config/LinuxServer/GameUserSettings.ini",
+        "ConfigType": "ini",
+        "AutoMap": true
+    }
+]
