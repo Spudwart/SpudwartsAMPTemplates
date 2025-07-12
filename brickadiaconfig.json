@@ -1,10 +1,10 @@
 [
     {
-        "DisplayName": "Brickadia Account Username",
-        "Category": "Server Settings",
-        "Description": "Brickadia.com account Username.",
-        "Keywords": "brickadia,account,username",
-        "FieldName": "user",
+        "DisplayName": "Brickadia Server Token",
+        "Category": "Server Token",
+        "Description": "Brickadia.com Server Token.",
+        "Keywords": "brickadia,account,token,server",
+        "FieldName": "token",
         "InputType": "text",
         "IsFlagArgument": false,
         "ParamFieldName": "user",
@@ -16,22 +16,4 @@
         "SkipIfEmpty": true,
         "EnumValues": {}
     },
-    {
-        "DisplayName": "Brickadia Account Password",
-        "Category": "Server Settings",
-        "Description": "Brickadia.com account Password.",
-        "Keywords": "brickadia,account,password",
-        "FieldName": "password",
-        "InputType": "password",
-        "IsFlagArgument": false,
-        "ParamFieldName": "password",
-        "IncludeInCommandLine": true,
-        "DefaultValue": "",
-        "Placeholder": "",
-        "Suffix": "",
-        "Hidden": false,
-        "SkipIfEmpty": false,
-        "EnumValues": {}
-    }
 ]
-
