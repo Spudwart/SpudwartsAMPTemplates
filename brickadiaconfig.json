@@ -101,7 +101,7 @@
       "DisplayName": "Welcome Message",
       "Category": "General",
       "Description": "Message shown when players join.",
-      "ParamFieldName": "WelcomeMessage",
+      "FieldName": "WelcomeMessage",
       "ParamFieldName": "Server__BP_ServerSettings_General_C BP_ServerSettings_General_C.WelcomeMessage",
       "IsFlagArgument": false,
       "IncludeInCommandLine": false,
