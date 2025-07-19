@@ -29,7 +29,7 @@
       "Placeholder": "",
       "Suffix": "",
       "Hidden": false,
-      "SkipIfEmpty": false,
+      "SkipIfEmpty": true,
       "EnumValues": {}
 
     },
@@ -46,7 +46,7 @@
       "Placeholder": "",
       "Suffix": "",
       "Hidden": false,
-      "SkipIfEmpty": false,
+      "SkipIfEmpty": true,
       "EnumValues": {}
     },
     {
@@ -62,7 +62,7 @@
       "Placeholder": "",
       "Suffix": "",
       "Hidden": false,
-      "SkipIfEmpty": false,
+      "SkipIfEmpty": true,
       "EnumValues": {}
     },
     {
@@ -78,7 +78,7 @@
       "Placeholder": "",
       "Suffix": "",
       "Hidden": false,
-      "SkipIfEmpty": false,
+      "SkipIfEmpty": true,
       "EnumValues": {}
     },
     {
@@ -94,7 +94,7 @@
       "Placeholder": "",
       "Suffix": "",
       "Hidden": false,
-      "SkipIfEmpty": false,
+      "SkipIfEmpty": true,
       "EnumValues": {}
     },
     {
@@ -110,7 +110,7 @@
       "Placeholder": "",
       "Suffix": "",
       "Hidden": false,
-      "SkipIfEmpty": false,
+      "SkipIfEmpty": true,
       "EnumValues": {}
     },
     {
@@ -126,7 +126,7 @@
       "Placeholder": "",
       "Suffix": "",
       "Hidden": false,
-      "SkipIfEmpty": false,
+      "SkipIfEmpty": true,
       "EnumValues": {}
     },
     {
@@ -142,7 +142,7 @@
       "Placeholder": "",
       "Suffix": "",
       "Hidden": false,
-      "SkipIfEmpty": false,
+      "SkipIfEmpty": true,
       "EnumValues": {}
     },
     {
@@ -158,7 +158,7 @@
       "Placeholder": "",
       "Suffix": "",
       "Hidden": false,
-      "SkipIfEmpty": false,
+      "SkipIfEmpty": true,
       "EnumValues": {}
     },
     {
@@ -175,7 +175,7 @@
       "Placeholder": "",
       "Suffix": "",
       "Hidden": false,
-      "SkipIfEmpty": false,
+      "SkipIfEmpty": true,
       "EnumValues": {}
     },
     {
@@ -191,7 +191,7 @@
       "Placeholder": "",
       "Suffix": "",
       "Hidden": false,
-      "SkipIfEmpty": false,
+      "SkipIfEmpty": true,
       "EnumValues": {}
     },
     {
@@ -207,7 +207,7 @@
       "Placeholder": "",
       "Suffix": "",
       "Hidden": false,
-      "SkipIfEmpty": false,
+      "SkipIfEmpty": true,
       "EnumValues": {}
     },
     {
@@ -223,7 +223,7 @@
       "Placeholder": "",
       "Suffix": "",
       "Hidden": false,
-      "SkipIfEmpty": false,
+      "SkipIfEmpty": true,
       "EnumValues": {}
     },
     {
@@ -239,7 +239,7 @@
       "Placeholder": "",
       "Suffix": "",
       "Hidden": false,
-      "SkipIfEmpty": false,
+      "SkipIfEmpty": true,
       "EnumValues": {}
     },
     {
@@ -255,7 +255,7 @@
       "Placeholder": "",
       "Suffix": "",
       "Hidden": false,
-      "SkipIfEmpty": false,
+      "SkipIfEmpty": true,
       "EnumValues": {}
     },
     {
@@ -271,7 +271,7 @@
       "Placeholder": "",
       "Suffix": "",
       "Hidden": false,
-      "SkipIfEmpty": false,
+      "SkipIfEmpty": true,
       "EnumValues": {}
     },
     {
@@ -288,7 +288,7 @@
       "Placeholder": "",
       "Suffix": "",
       "Hidden": false,
-      "SkipIfEmpty": false,
+      "SkipIfEmpty": true,
       "EnumValues": {}
     },
     {
@@ -304,7 +304,7 @@
       "Placeholder": "",
       "Suffix": "",
       "Hidden": false,
-      "SkipIfEmpty": false,
+      "SkipIfEmpty": true,
       "EnumValues": {}
     },
     {
@@ -320,7 +320,7 @@
       "Placeholder": "",
       "Suffix": "",
       "Hidden": false,
-      "SkipIfEmpty": false,
+      "SkipIfEmpty": true,
       "EnumValues": {}
     },
     {
@@ -337,7 +337,7 @@
       "Placeholder": "",
       "Suffix": "",
       "Hidden": false,
-      "SkipIfEmpty": false,
+      "SkipIfEmpty": true,
       "EnumValues": {}
     },
     {
